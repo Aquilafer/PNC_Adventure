@@ -1,11 +1,16 @@
 #ifndef __GSTATE_HPP_
 #define __GSTATE_HPP_
 
-#include <vector>
+/*
+inventory:
+key: 0b1
+paper: 0b10
+*/
 
 struct Gstate {
     int scene = 0;
-    std::vector inv;
+    int state = 0;
+    int inv = 0;
 };
 
 #endif

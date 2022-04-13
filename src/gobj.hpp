@@ -12,6 +12,6 @@ public:
     std::string use(Gstate* state);
     std::string look_at(Gstate* state);
     std::string go_to(Gstate* state);
-protected:
 }
+
 #endif
