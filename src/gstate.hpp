@@ -1,11 +1,13 @@
 #ifndef __GSTATE_HPP_
 #define __GSTATE_HPP_
 
-/*
-inventory:
-key: 0b1
-paper: 0b10
-*/
+// constants representing inventory items
+namespace INV 
+{
+	const int key1 = 0b001;
+	const int sword = 0b010;
+	const int key2 = 0b100;
+}
 
 struct Gstate {
     int scene = 0;
